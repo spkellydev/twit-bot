@@ -10,7 +10,7 @@ It was pretty fun for a first go around, but I think next time I would try to in
 # This repo will not work without a config.js file in the repository
 
 I removed mine for obvious reasons (not wanting my keys out there in the open) - it should look like this
-
+<pre>
 module.exports = {
   consumer_key:         '...',
   consumer_secret:      '...',
@@ -18,3 +18,4 @@ module.exports = {
   access_token_secret:  '...',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
 }
+</pre>
